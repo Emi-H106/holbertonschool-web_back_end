@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
-Module to return a tuple containing a string and the square of a number with type annotations."""
+Module to return a tuple containing a string
+and the square of a number with type annotations.
+"""
 
 from typing import Union, Tuple
 
