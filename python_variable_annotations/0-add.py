@@ -2,6 +2,7 @@
 """
 Module to add two floating-point numbers with type annotations."""
 
+
 def add(a: float, b: float) -> float:
     """
     Add two floating-point numbers.
