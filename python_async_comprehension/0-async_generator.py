@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Concurrent coroutines example using asyncio and random module.
+Asynchronously generates random floats between 0 and 10.
 """
 import asyncio
 import random
