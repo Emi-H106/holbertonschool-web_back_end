@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-
 """
 Concurrent coroutines example using asyncio and random module.
 """
 
 
 import asyncio
+from typing import List
 task_wait_random = __import__('3-tasks').task_wait_random
 
 
