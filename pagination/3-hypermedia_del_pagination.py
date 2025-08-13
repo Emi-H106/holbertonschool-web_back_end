@@ -5,7 +5,7 @@ Deletion-resilient hypermedia pagination
 
 import csv
 import math
-from typing import List
+from typing import List, Dict
 
 
 class Server:
@@ -48,6 +48,8 @@ class Server:
         - data: The actual page data
         Works even if rows between current and next page were deleted.
         """
+        if index = None:
+            index = 0
 
         assert isinstance(index, int) and index >= 0
         assert isinstance(page_size, int) and page_size > 0
