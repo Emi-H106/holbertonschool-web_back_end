@@ -48,7 +48,7 @@ class Server:
         - data: The actual page data
         Works even if rows between current and next page were deleted.
         """
-        if index = None:
+        if index is None:
             index = 0
 
         assert isinstance(index, int) and index >= 0
