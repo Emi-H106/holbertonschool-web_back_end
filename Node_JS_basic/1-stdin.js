@@ -6,5 +6,5 @@ process.stdin.on('data', (input) => {
 });
 
 process.stdin.on('end', () => {
-  process.stdout.write('This important software is now closing');
+  process.stdout.write('This important software is now closing\n');
 });
